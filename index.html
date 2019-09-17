@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8' />
+		<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet"> 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+		<link href='css/styles.css' rel='stylesheet'/>
+	</head>
+	<body>
+		<header>
+			<p class='title'>The Land Problem</p>
+			<img class='header' src='assets/svg/header.svg' width=60% height=60%>
+			<p class='subtitle'>A humble introduction to buying property in India</p>
+		</header>
+
+		<p class='prose'>Imagine the purchase of a simple mobile phone. The two entities, the buyer and the seller, engage in a transaction where the buyer transfers cash to the seller, the seller prints out a receipt and then hands the device to the buyer. The receipt usually suffices in serving as proof of the transaction.</p>
+
+		<p class='prose'>
+			<a href="https://www.goodreads.com/quotes/597766-buy-land-they-re-not-making-it-anymore" target="_blank">Land</a>, however, is a little more complicated. Much unlike a mobile phone which is a product of recent times, land has the thorny issue of legacy.
+		</p>
+
+		<p class='prose'>
+			In Northern India, one of the oldest known land records is presumably <a href=" https://www.telegraphindia.com/states/bihar/diary-lost-in-translation/cid/1368907" target="_blank">a diary of Todar Mal</a>, Akbar's Revenue Minister during the latter's reign in the second half of the 16th century. Later, when the British arrived, they built upon Akbar's land revenue system and took it through multiple iterations like the Zamindari system, the Ryotwari system and the Mahalwari system before all of this was abolished soon after independence.</p>
+		<p class='prose'>Cut to the present and words like <i>"khasra"</i> seamlessly meld into our addresses. The word <i>khasra</i>, with its origins dating back to the Mughal era, simply means a plot of land.</p>
+
+		<div id='slideshow'>
+			<div id='graphic-vis' class='graphic-vis'>
+				<img id='zero-img' class='slideshow' src='assets/svg/zero_img_teal.svg' width=90% height=90%>
+				<img id='one-img' class='unseen slideshow' src='assets/svg/one_img_teal_new.svg' width=90% height=90%>
+				<img id='two-img' class='unseen slideshow' src='assets/svg/two_img_teal_new.svg' width=90% height=90%>
+				<img id='three-img' class='unseen slideshow' src='assets/svg/three_img_teal_new.svg' width=90% height=90%>
+				<img id='four-img' class='unseen slideshow' src='assets/svg/four_img_teal_new.svg' width=90% height=90%>
+			</div>
+			<div id='graphic-prose' class='graphic-prose'>
+				<div class='graphic-prose-spacer'></div>
+				<div id='zero-text' class='graphic-prose-text'>Let's say you wanted to buy Khasra No. 342 in Hauz Khas village.</div>
+				<div class='graphic-prose-spacer'></div>
+				<div id='one-text' class='graphic-prose-text'>
+					At the time of purchase, both the seller and buyer sign a sale deed (a non-judicial stamp paper of a prescribed amount).
+					Typically, a sale deed contains details of the property, a price that both parties have agreed upon, and details of past transactions on the property.
+				</div>
+				<div class='graphic-prose-spacer'></div>
+				<div id='two-text' class='graphic-prose-text'>
+					<p>
+					Once the deed is registered at the Sub-Registrar's office, details about the transaction are sent to the Tehsil/Taluka office to start the process of mutation (recording the transfer or change of title of a property in the land records) and reflect this change in the Record of Rights (ROR).</p> <p>Once the mutation/transfer comes into effect, the state government (through the Tehsil/Taluka office) provides documentary evidence of right over land in the form of a <i>patta</i>.  This <i>patta</i> is then provided to the buyer as an evidence of land right.</p>
+				</div>
+				<div class='graphic-prose-spacer'></div>
+				<div id='three-text' class='graphic-prose-text'>
+					The Record of Rights is where the aforementioned mutation occurs. It is the primary record that shows how rights on land are derived for the land owner. It also records the property’s transactions from time to time.
+				</div>
+				<div class='graphic-prose-spacer'></div>
+				<div id='four-text' class='graphic-prose-text'>
+					Finally, any changes on the ground level are recorded by re-drawing or editing cadastral/survey maps.
+				</div>
+				<div class='graphic-prose-spacer'></div>
+				<div id='end-slideshow' class='graphic-prose-spacer end-scroller'></div>
+		</div>
+		<p class='prose'>
+			Just transacting on a simple khasra involves dealing with multiple administrative entities that have (possibly stale) data sitting in silos. Ultimately, land ownership in India is presumptive, i.e. derived using a plethora of documents.
+		</p>
+		<p class='prose'>
+			Given the lack of cohesion between the different entities, data-related problems can (and do) arise. This leads to all sorts of transgressions - for example, <a href="https://en.wikipedia.org/wiki/Khosla_Ka_Ghosla#Plot" target="_blank">a seller registering the same sale deed on a property twice</a>. 
+		</p>
+		<p class='prose'> 
+			In an urban context, the problem gets even more interesting. Add master plans, municipal corporations and urban development authorities and you get even more data and even more regulations to adhere to. 
+
+			When all of this data sits siloed, you have one beautiful mess few can make sense of. This inevitably leads to a <a href="http://dakshindia.org/Daksh_Justice_in_India/12_chapter_02.xhtml#_idTextAnchor011" target="_blank">whole lot of conflict</a> - almost 2/3rds of all civil litigation in India is property-related.
+		</p>
+		<p class='prose'>
+			For this centuries-old land problem that has so fundamentally plagued society, there has never been a better time than now to have our best minds, equipped with the most cutting-edge technologies, solve this data challenge once and for all.
+		</p>
+		<br>
+		<p class='prose tail'>
+			<i>Inspired by a <a href="https://www.prsindia.org/sites/default/files/parliament_or_policy_pdfs/Land%20Records%20and%20Titles%20in%20India.pdf" target="_blank">beautifully succint land data primer</a> by Prachee Mishra & Roopal Suhag at PRS Legislive Research and a <a href="https://pudding.cool/2017/05/song-repetition/" target="_blank">delightfully tasteful data article</a> by Colin Morris and the team at The Pudding.</i>
+		</p>
+	<script src="js/script.js?v=1"></script>
+	</body>
+</html>

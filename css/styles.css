@@ -1,0 +1,136 @@
+body {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 1.4em;
+	font-weight: 450;
+}
+
+#intro {
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+a {
+	text-decoration: none;
+	color: teal;
+	font-weight: 550;
+	border-bottom: 1px dashed;
+}
+
+p.title {
+	font-size: 2.5em;
+	margin-bottom: 1%;
+	margin-top: 1.5%;
+}
+
+p.subtitle {
+	font-size: 1.5em;
+	margin-top: 0;
+}
+
+p.prose {
+	max-width: 40rem;
+	margin: 3% auto;
+	margin-top: 1em;
+	margin-bottom: 1.3em;
+	line-height: 1.7;
+}
+
+header {
+	text-align: center;
+	z-index: 3000;
+	padding: 4rem auto;
+	height: 100vh;
+	margin-bottom: 2.5rem;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-pack: center;
+	justify-content: flex-center;
+}
+
+img.slideshow {
+	border: 1px dashed;
+	border-radius: 10px;
+	margin-left: 5%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+img.unseen {
+	opacity: 0;
+}
+
+img.header {
+	margin-left: 20%;
+}
+
+div.scrollmagic-pin-spacer {
+	vertical-align: top;
+}
+
+div.scrollmagic-pin-spacer.mobile {
+	vertical-align: top;
+	margin: 0 !important;
+}
+
+div#slideshow {
+	width: 100%;
+	position: relative;
+	margin-top: 5vh;
+}
+
+div.graphic-prose-spacer {
+	padding-top: 10rem;
+}
+
+div.graphic-prose-spacer.end-scroller {
+	padding-top: 4rem;
+}
+
+div.graphic-prose-spacer.end-scroller.mobile {
+	padding-top: 8rem !important;
+}
+
+div.graphic-prose-text {
+	background-color: teal;
+	opacity: 0.4;
+	padding: 1vh;
+	border-radius: 10px;
+	color: white;
+}
+
+div.graphic-vis {
+	width: 47vw;
+	position: absolute;
+	top: 0;
+	margin-left: 50%;
+	transform: translate3d(0,0,0);
+	height: 100vh; 
+}
+
+div.graphic-vis.mobile {
+	width: 96vw !important;
+	position: absolute;
+	top: 0;
+	margin: 0 !important;
+	margin-left: 1%;
+	transform: translate3d(0,0,0);
+	height: 100vh;
+}
+
+div.graphic-prose {
+	width: 35%;
+	margin-left: 5%;
+}
+
+div.graphic-prose.mobile {
+	width: 86% !important;
+	margin-left: 7%;
+}
+
+p.prose.tail {
+	margin-bottom: 15vh;
+}
+
