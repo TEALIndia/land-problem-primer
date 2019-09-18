@@ -6,7 +6,7 @@
 function identifyScreenAddClass() {
 	if(screen.width < 853) {
 		var elements = document.querySelectorAll(
-			'#graphic-prose, #graphic-vis, .end-scroller'
+			'#graphic-prose, #graphic-vis, .end-scroller, .graphic-prose-spacer, p.prose'
 			)
 		for (var x = 0;x < elements.length; x++) {
 			elements[x].classList.add('mobile')
@@ -38,7 +38,7 @@ identifyScreenAddClass();
 
 var controller = new ScrollMagic.Controller();
 
-//pinner
+
 
 // text blobs
 
@@ -132,6 +132,8 @@ var scene_img_4b = new ScrollMagic.Scene({
 	.setTween("#three-img", 0.1, {opacity: 0})
 	.addTo(controller);
 
+
+//pinner
 
 var pinner = new ScrollMagic.Scene({
 	triggerElement: ".graphic-vis",

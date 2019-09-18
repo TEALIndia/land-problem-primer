@@ -1,6 +1,10 @@
+html {
+	font-size: 16px;
+}
+
 body {
 	font-family: 'Cormorant Garamond', serif;
-	font-size: 1.4em;
+	font-size: 1.4rem;
 	font-weight: 450;
 }
 
@@ -17,14 +21,14 @@ a {
 }
 
 p.title {
-	font-size: 2.5em;
+	font-size: 3rem !important;
 	margin-bottom: 1%;
-	margin-top: 1.5%;
+	margin-top: 5vh;
 }
 
 p.subtitle {
-	font-size: 1.5em;
-	margin-top: 0;
+	font-size: 2rem !important;
+	margin-top: 5vh;
 }
 
 p.prose {
@@ -33,6 +37,11 @@ p.prose {
 	margin-top: 1em;
 	margin-bottom: 1.3em;
 	line-height: 1.7;
+}
+
+p.prose.mobile {
+	margin-left: 5vw;
+	margin-right: 5vw;
 }
 
 header {
@@ -85,12 +94,16 @@ div.graphic-prose-spacer {
 	padding-top: 10rem;
 }
 
+div.graphic-prose-spacer.mobile {
+	padding-top: 20rem;
+}
+
 div.graphic-prose-spacer.end-scroller {
-	padding-top: 4rem;
+	padding-top: 20rem;
 }
 
 div.graphic-prose-spacer.end-scroller.mobile {
-	padding-top: 8rem !important;
+	padding-top: 10rem !important;
 }
 
 div.graphic-prose-text {
