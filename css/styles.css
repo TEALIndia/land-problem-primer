@@ -23,12 +23,12 @@ a {
 p.title {
 	font-size: 3rem !important;
 	margin-bottom: 1%;
-	margin-top: 1vh;
+	margin-top: 5vh;
 }
 
 p.subtitle {
 	font-size: 2rem !important;
-	margin-top: 5vh;
+	margin-top: 1vh;
 }
 
 p.prose {
