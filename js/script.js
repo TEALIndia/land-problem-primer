@@ -137,7 +137,7 @@ var scene_img_4b = new ScrollMagic.Scene({
 
 var pinner = new ScrollMagic.Scene({
 	triggerElement: ".graphic-vis",
-	duration: slideshowScrollDuration(),
+	duration: slideshowScrollDuration,
 	triggerHook: 0.05
 })
 	.setPin(".graphic-vis",{
