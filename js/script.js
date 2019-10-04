@@ -14,6 +14,20 @@ function identifyScreenAddClass() {
 	}
 }
 
+function updateSpacerPadding() {
+	var rect = document.getElementById("graphic-vis").getBoundingClientRect()
+	var spacers = document.getElementsByClassName("graphic-prose-spacer")
+	var endSpacer = document.getElementById("end-slideshow")
+	var graphic = document.getElementById("graphic-vis")
+	var graphicHeight = graphic.getBoundingClientRect().height
+
+	endSpacer.setAttribute("style","padding:0; padding-top:"+graphicHeight+"px")
+
+	for (var x = 0; x < spacers.length; x++) {
+		spacers[x].setAttribute("style","padding:0; padding-top:"+graphicHeight/2+"px")
+	}
+}
+
 function identifyScreenAddClassSpacer() {
 	if(screen.width < 853) {
 		var el1 = document.getElementsByClassName('scrollmagic-pin-spacer')[0]
@@ -29,7 +43,7 @@ function offset(el) {
 }
 
 function slideshowScrollDuration() {
-	var endel = document.getElementById('three-text')
+	var endel = document.getElementById('end-slideshow')
 	var startel = document.getElementById('slideshow')
 	return offset(endel).top - offset(startel).top
 }
@@ -147,3 +161,4 @@ var pinner = new ScrollMagic.Scene({
 
 
 identifyScreenAddClassSpacer();
+updateSpacerPadding()

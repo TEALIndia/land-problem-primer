@@ -98,14 +98,14 @@ div.graphic-prose-spacer {
 div.graphic-prose-spacer.mobile {
 	padding-top: 20rem;
 }
-
+/*
 div.graphic-prose-spacer.end-scroller {
 	padding-top: 20rem;
 }
 
 div.graphic-prose-spacer.end-scroller.mobile {
 	padding-top: 10rem !important;
-}
+}*/
 
 div.graphic-prose-text {
 	background-color: teal;
